@@ -22,7 +22,12 @@ public class Subject {
 		System.out.println("finding the char count");
 		System.out.println("subject char count:"+subjectName.length());
 	}
-	
+	// get the word count
+	public void getNumberOfWords(String sentences) {
+		System.out.println("sentence is :"+sentences);
+		String words[] = sentences.split(" ");
+		System.out.println("word count is:"+words.length);
+	}
 	
 	
 	}

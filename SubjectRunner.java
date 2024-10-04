@@ -9,6 +9,8 @@ public class SubjectRunner {
       subject1.getSubjectDetails("Bio");
       subject1.getNumberOfChar("Biology");
       subject1.getNumberOfChar("maths");
+      subject1.getNumberOfWords("hello this is java workshop");
+      
       
      
 	}
