@@ -27,7 +27,9 @@ public class Subject {
 		System.out.println("sentence is :"+sentences);
 		String words[] = sentences.split(" ");
 		System.out.println("word count is:"+words.length);
+		System.out.println(sentences.toUpperCase());
+		System.out.println(sentences.toLowerCase());
 	}
 	
-	
+	 
 	}
